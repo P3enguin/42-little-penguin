@@ -1,0 +1,25 @@
+From bc21690c9214f8fb84375bd799b3520087a64f9e Mon Sep 17 00:00:00 2001
+From: pengu <:o:o:o@gmail.com>
+Date: Thu, 7 Nov 2024 16:15:30 +0000
+Subject: [PATCH] Modified EXTRAVERSION to add -thor_kernel suffix
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index dbd1dcc5c05a..b5adee0a8eb8 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 12
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc6
++EXTRAVERSION = -thor_kernel
+ NAME = Baby Opossum Posse
+ 
+ # *DOCUMENTATION*
+-- 
+2.46.0
+
